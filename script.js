@@ -1,12 +1,6 @@
-// script.js
-document.addEventListener("DOMContentLoaded", () => {
-  const links = document.querySelectorAll("a");
-
-  links.forEach(link => {
-    link.addEventListener("click", () => {
-      console.log(`Opening recipe: ${link.textContent}`);
-      // Optional alert
-      // alert(`Opening ${link.textContent} recipe!`);
-    });
-  });
+// This script is for any future interactivity you might want to add.
+document.addEventListener('DOMContentLoaded', () => {
+  console.log('Recipe website loaded!');
+  // You can add more JavaScript functionalities here if needed.
 });
+
